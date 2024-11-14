@@ -1,0 +1,388 @@
+@font-face {
+    font-family: Opensauce;
+    src: url(../fonts/OpenSauceSans-Regular.ttf);
+}
+
+
+* {
+    font-family: Opensauce;
+}
+
+/* html{
+    margin: auto;
+} */
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    margin: auto;
+}
+
+nav {
+    /* justify-content: space-between; */
+    /* z-index: 100; */
+    position: sticky;
+    transition: 0.6s ease-in-out;
+    top: 0;
+    /* left: auto; */
+    /* width: 100vw; */
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.6s ease ease-in-out;
+    /* background-color: #19A89D; */
+    /* margin-right: 128px;
+    margin-left: 128px;
+    margin-top: 12px; */
+
+}
+
+nav>img {
+    width: 100px;
+    height: 100px;
+    /* gap: 853px; */
+}
+
+.navlink {
+    display: flex;
+    gap: 3rem;
+}
+
+.navlink>a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.a1:hover {
+    color: #19A89D;
+    transition: 0.3s ease-in-out;
+}
+
+.a2:hover {
+    color: #19A89D;
+    transition: 0.3s ease-in-out;
+}
+
+.a3:hover {
+    color: #19A89D;
+    transition: 0.3s ease-in-out;
+}
+
+
+
+.frame1 {
+    display: flex;
+    justify-content: center;
+    color: hsl(0, 0%, 0%);
+    margin-top: 8%;
+    margin-left: 8%;
+    margin-right: 8%;
+
+}
+
+.rumah {
+    font-size: 64px;
+    margin-bottom: 36px;
+}
+
+.belajar {
+    display: block;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+    margin-right: 128px;
+    margin-top: 36px;
+    width: 500px;
+    /* height: 168px; */
+}
+
+.imgsec1 {
+    display: flex;
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+}
+
+.join {
+    text-decoration: none;
+    font-size: 20px;
+    background-color: #19A89D;
+    color: white;
+    font-size: 20px;
+    padding: 20px 20px;
+    width: 260px;
+    height: 64px;
+}
+
+.join:hover {
+    transition: 0.3s;
+    color: #D7E026;
+}
+
+
+.frame {
+    margin-right: 128px;
+    margin-left: 128px;
+}
+
+.visi-misi {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 128px;
+    margin-right: 128px;
+    margin-inline: auto;
+    gap: 90px;
+}
+
+.visi {
+    margin-left: 128px;
+}
+
+h4 {
+    font-size: 48px;
+
+}
+
+
+.parag1 {
+    text-align: justify;
+    font-size: 16px;
+    width: 518px;
+    height: 72px;
+}
+
+.texticon {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 38px;
+}
+
+.misi {
+    display: flex;
+    flex-direction: column;
+    margin-right: 128px;
+}
+
+.texticon2 {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 20px;
+}
+
+.imgsec2 {
+    width: 64px;
+    height: 64px;
+}
+
+.imgsec3 {
+    width: 64px;
+    height: 64px;
+}
+
+.list {
+    text-align: justify;
+    width: 652px;
+    height: 192px;
+    line-height: 24px;
+}
+
+.mentor-mentee{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box-mentor {
+    display: flex;
+    justify-content: center;
+    gap: 140px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-right: auto;
+}
+
+.text-icon-mentor {
+    display: flex;
+    gap: 24px;
+    font-size: 64px;
+}
+
+.img-mentor {
+    width: 106px;
+    height: 80px;
+}
+
+.parag-mentor {
+    line-height: 1.8;
+    display: block;
+    text-align: justify;
+    font-weight: 400;
+    width: 490px;
+    height: 270px;
+}
+
+.manfaat-mentor {
+    margin-top: 70px;
+}
+
+
+.list-manfaat-mentor>p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+.syarat-mentor {
+    margin-top: 70px;
+}
+
+.list-syarat-mentor>p {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+.mentee{
+    margin-left: 128px;
+    /* margin-right: 128px; */
+}
+.box-mentee {
+    display: flex;
+    width: 1500px;
+    margin-top: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.icon-parag{
+    text-align: center;
+}
+.parag-mentee{
+    line-height: 1.8;
+    justify-content: center;
+    text-align: justify;
+    width: 490px;
+    height: 270px;
+}
+
+.biaya-manfaat-syarat {
+    margin-inline: auto;
+    line-height: 0%;
+    align-items: center;
+    margin-top: 70px;
+    margin-left: 170px;
+    height: 68px;
+}
+
+.Rp {
+    color: hsla(175, 74%, 38%, 1);
+    font-weight: bold;
+}
+
+.manfaat-syarat-mentee {
+    display: flex;
+    gap: 170px;
+}
+
+.manfaat-mentee {
+    margin-top: 24px;
+}
+
+.list-manfaat-mentee>p {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    gap: 12px;
+}
+
+.syarat-mentee {
+    margin-top: 24px;
+}
+
+.list-syarat-mentee>p {
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+.video {
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+footer {
+    background-color: hsla(216, 19%, 10%, 1);
+    color: white;
+
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.a {
+    display: flex;
+    gap: 25px;
+    align-items: center
+}
+
+footer section {
+    display: flex;
+    padding: 96px 96px;
+}
+
+.contact {
+    align-items: center;
+}
+
+.visit {
+    width: 468px;
+    height: 80px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 1440px) {
+
+}
+@media screen and (max-width: 1190px) {
+
+}
+
+@media screen and (max-width: 1050px) {
+
+}
+
+/* @media screen and (max-width: 580px) {
+    html{
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    nav{
+        margin: 0%;
+        padding: 0%;
+    }
+    .frame1{
+        display: grid;
+        align-items: center;
+        margin: 4% 4% 4%;
+    }
+
+} */

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pendaftaran Nindya</title>
+    <link rel="stylesheet" href="assets/nindya.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div>
+          <img src="./img/logo-bslc-scroll 1.svg" alt="" />
+        </div>
+        <div class="navlink">
+          <a class="a1" href="https://new.bslc.or.id/ " target="_blank"
+            >Kunjungi Kami
+          </a>
+          <a
+            class="a2"
+            href="https://student-activity.binus.ac.id/bslc/ "
+            target="_blank"
+            >Website SCAC
+          </a>
+          <a class="a3" href="nindya.html" target="_blank">Nindya</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="nindya-gambar">
+        <div class="nindya-parag">
+          <h1 style="font-size: 48px">Nindya</h1>
+          <p class="parag1">
+            NINDYA merupakan sebutan untuk pengurus BSLC yang bertugas menangani
+            seluruh kegiatan BSLC, baik kegiatan mentoring, event-event BSLC
+            seperti seminar, kebersamaan, hingga perekrutan NINDYA baru itu
+            sendiri. Kata NINDYA sendiri diambil dari tingkatan tertinggi di
+            pramuka.
+          </p>
+        </div>
+        <img class="nindya-img" src="./img/Nindya.svg" alt="Nindya.img" />
+      </div>
+      <div class="box-divisi">
+        <div class="divisi">
+          <h1 style="font-size: 48px">Divisi</h1>
+        </div>
+        <div class="box-isi-divisi">
+          <div class="icon-text">
+            <div class="learning">
+              <h2 class="text-icon-learning">
+                <img src="./img/learning.svg" /> Learning
+              </h2>
+              <div>
+                <p>Mentoring</p>
+                <p>People Development</p>
+              </div>
+            </div>
+            <div class="Marketing">
+              <h2 class="text-icon-marketing">
+                <img src="./img/marketing.svg" /> Marketing
+              </h2>
+              <div>
+                <p>Public Relation</p>
+                <p>Design</p>
+                <p>Business Development</p>
+              </div>
+            </div>
+            <div class="human-capital">
+              <h2 class="text-icon-hc">
+                <img src="./img/humancapital.svg" /> Human Capital
+              </h2>
+              <div>
+                <p>Creative and Research</p>
+                <p>Engagement</p>
+              </div>
+            </div>
+            <div class="IT">
+              <h2 class="text-icon-it"><img src="./img/IT.svg" /> IT</h2>
+              <div>
+                <p>IT Development</p>
+                <p>IT Support</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pendaftaran" style="margin-bottom: 50px">
+        <h1 style="font-size: 48px">Pendaftaran Nindya</h1>
+      </div>
+
+      <div>
+        <form class="form" onsubmit="validation(event)">
+          <div class="form1">
+            <label style="font-size: 20px" for="name">Nama</label><br />
+            <input type="text" id="nama" required /><br />
+            <label style="font-size: 20px" for="nim">NIM</label><br />
+            <input type="text" id="nim" required /><br />
+            <label style="font-size: 20px" for="email">Email</label><br />
+            <input
+              placeholder="@binus.ac.id"
+              type="text"
+              id="email"
+              required
+            /><br />
+            <label style="font-size: 20px" for="jurusan">Jurusan</label><br />
+            <input type="text" id="jurusan" required /><br />
+            <label style="font-size: 20px" for="Regional">Regional</label><br />
+            <select name="Regional" id="regional" required>
+              <option value=""></option>
+              <option value="Kemanggisan">Kemanggisan</option>
+              <option value="Alam Sutera">Alam Sutera</option>
+              <option value="Bekasi">Bekasi</option>
+              <option value="Senayan">Senayan</option>
+            </select>
+            <br /><br />
+            <label style="font-size: 20px" for="Subdivisi-Pilihan"
+              >Subdivisi Pilihan</label
+            ><br />
+            <select id="subdivisi" required>
+              <option value=""></option>
+              <option value="Creative and Research">
+                Creative and Research
+              </option>
+              <option value="Engagement">Engagement</option>
+              <option value="Mentoring">Mentoring</option>
+              <option value="Public Development">Public Development</option>
+              <option value="Business Development">Business Development</option>
+              <option value="Public Relation">Public Relation</option>
+              <option value="Design">Design</option>
+              <option value="IT Development">IT Development</option>
+              <option value="IT Support">IT Support</option>
+            </select>
+          </div>
+          <div class="form2">
+            <div>
+              <p class="text-alasan">Alasan ingin menjadi Nindya</p>
+            </div>
+            <form name="form2">
+              <textarea
+                maxlength="512"
+                placeholder="Maksimal 512 kata"
+                id="alasanjoin"
+                cols="80"
+                rows="29"
+                required
+              ></textarea>
+              <div>
+                <button id="signup" class="signup" onclick="validation">
+                  Bergabung Sekarang
+                </button>
+              </div>
+            </form>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <section class="footer">
+        <div class="contact">
+          <p>Contact us</p>
+          <div class="a">
+            <a
+              href="https://www.youtube.com/c/BinusStudentLearningCommunity"
+              target="_blank"
+            >
+              <img src="./img/yt.svg" />
+            </a>
+            <a href="https://twitter.com/BSLC_BINUS" target="_blank">
+              <img src="./img/twt.svg" />
+            </a>
+            <a
+              href="https://id.linkedin.com/company/binus-student-learning-community"
+              target="_blank"
+            >
+              <img src="./img/linkedin bslc.svg" />
+            </a>
+            <a href="https://www.instagram.com/bslc_binus/" target="_blank">
+              <img src="./img/instagram.svg" />
+            </a>
+            <a
+              href="https://www.facebook.com/BinusStudentLearningCommunity/"
+              target="_blank"
+            >
+              <img src="./img/facebook.svg" alt="instagram-bslc" />
+            </a>
+            <a href="mailto:bslccommunity@gmail.com" target="_blank">
+              <img src="./img/email.svg" />
+            </a>
+          </div>
+          <p>Visit Us</p>
+          <p class="visit">
+            <span style="font-weight: bold">Binus Anggrek</span><br />
+            Anggrek Campus, R.515 Binus University, RT.1/RW.4, Kedoya Utara,
+            Kec. Kb. Jeruk, Kota Jakarta Barat, Daerah Khusus Ibukota Jakarta
+            11520, Indonesia
+          </p>
+        </div>
+        <div class="bslc-logo">
+          <img width="247px" height="237px" src="./img/bslc-putih.svg" />
+        </div>
+      </section>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script src="form.js"></script>
+  </body>
+</html>

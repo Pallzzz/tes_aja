@@ -1,0 +1,239 @@
+@font-face {
+    font-family: OpenSauceSans;
+    src: url(../fonts/OpenSauceSans-Regular.ttf);
+}
+
+*{
+    font-family: OpenSauceSans;
+
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    margin: auto;
+}
+
+nav {
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: hsl(0, 0%, 100%);
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-right: 128px;
+    margin-left: 128px;
+    margin-top: 12px; */
+
+}
+
+nav>img {
+    width: 100px;
+    height: 100px;
+    gap: 853px;
+}
+
+.navlink {
+    display: flex;
+    gap: 64px;
+}
+
+.navlink>a {
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+.a1:hover {
+    color: #19A89D;
+    transition: 0.3s;
+}
+.a2:hover {
+    color: #19A89D;
+    transition: 0.3s;
+}
+.a3:hover {
+    color: #19A89D;
+    transition: 0.3s;
+}
+
+
+.container{
+    margin: 0 auto;
+}
+
+.nindya-gambar{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-left: 128px;
+    margin-right: 128px;
+    
+
+}
+.nindya-img{
+    width: 678px;
+    height: 500px;
+}
+/* .nindya-parag{
+    margin
+} */
+
+.parag1{
+    font-size: 20px;
+    text-align: justify;
+    width: 540px;
+    height: 180px;
+    line-height: 30px;
+}
+
+
+
+
+.box-divisi{
+    margin-top: 128px;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+.divisi{
+    margin-top: 128px;
+    text-align: center;
+    
+}
+.icon-text{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+}
+.text-icon-learning{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.text-icon-marketing{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.text-icon-hc{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+.text-icon-it{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+
+
+
+.pendaftaran{
+    display: flex;
+    justify-content: center;
+    margin-right: 51rem;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    clear: both;
+    gap: 100px;
+    margin-bottom: 170px;
+    margin-right: 128px;
+    
+}
+
+.form1{
+    margin-left: 128px;
+    margin-bottom: 100px;
+}
+
+.form2{
+    margin-top: 0;
+}
+.text-alasan{
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.form-alasan{
+    margin-top: 0;
+}
+
+.signup{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #19A89D;
+    border: #19A89D;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+}
+
+
+form input{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 550px;
+    height: 32px;
+}
+
+select{
+    margin-top: 10px;
+    width: 560px;
+    height: 38px;
+}
+
+
+
+
+footer {
+    background-color: hsla(216, 19%, 10%, 1);
+    color: white;
+    width: 100%;
+    height: 70%;
+    margin-top: 128px;
+
+}
+
+footer section {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    padding: 96px 96px;
+    margin: 0;
+}
+
+.a {
+    display: flex;
+    gap: 25px;
+    align-items: center
+}
+
+.contact {
+    align-items: center;
+}
+
+.visit {
+    width: 468px;
+    height: 80px;
+    text-align: justify;
+}
+
+.bslc-logo{
+    justify-content: center;
+}
+
+
